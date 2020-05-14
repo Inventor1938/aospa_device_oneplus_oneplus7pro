@@ -45,8 +45,8 @@ DEVICE_PACKAGE_OVERLAYS += \
 endif
 
 # Screen density
-PRODUCT_AAPT_CONFIG := normal
-PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+PRODUCT_AAPT_CONFIG := xxxhdpi
+PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 
 # Inherit from sm8150-common
 $(call inherit-product, device/oneplus/sm8150-common/sm8150.mk)
